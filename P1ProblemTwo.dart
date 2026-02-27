@@ -1,6 +1,6 @@
 void main() {
-  String name = '"John Doe"';
-  print('Hello I am ' + name);
-  String name2 = '"John Doe"';
-  print("Hello I'am $name2");
+  const String userName = '"John Doe"';
+  print('Hello I am ' + userName);
+  const String userName2 = '"John Doe"';
+  print("Hello I'am $userName2");
 }

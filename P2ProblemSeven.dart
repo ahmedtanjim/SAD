@@ -1,10 +1,10 @@
 import 'dart:io';
 
 void main() {
-  print("Enter a number : ");
-  int n = int.parse(stdin.readLineSync()!);
-  for (int i = 1; i <= 10; i++) {
-    int result = n * i;
-    print("$n x $i = $result");
+  stdout.write("Enter a number : ");
+  final int baseNum = int.parse(stdin.readLineSync()!);
+  for (int idx = 1; idx <= 10; idx++) {
+    final int product = baseNum * idx;
+    print("$baseNum x $idx = $product");
   }
 }

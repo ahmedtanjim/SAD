@@ -1,4 +1,4 @@
 void main() {
-  final int a = 7;
-  print(a);
+  const int value = 7;
+  print(value);
 }

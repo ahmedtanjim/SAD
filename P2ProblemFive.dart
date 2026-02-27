@@ -1,11 +1,11 @@
 import 'dart:io';
 
 void main() {
-  print("Enter a natural number : ");
-  int n = int.parse(stdin.readLineSync()!);
-  int sum = 0;
-  for (int i = 1; i <= n; i++) {
-    sum += i;
+  stdout.write("Enter a natural number : ");
+  final int limit = int.parse(stdin.readLineSync()!);
+  int total = 0;
+  for (int idx = 1; idx <= limit; idx++) {
+    total += idx;
   }
-  print("The sum of first $n natural numbers is: $sum");
+  print("The sum of first $limit natural numbers is: $total");
 }

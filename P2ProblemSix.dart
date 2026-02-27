@@ -1,7 +1,7 @@
 void main() {
-  int n = 5;
-  for (int i = 1; i <= 10; i++) {
-    int result = n * i;
-    print("$n x $i = $result");
+  const int multiplier = 5;
+  for (int idx = 1; idx <= 10; idx++) {
+    final int product = multiplier * idx;
+    print("$multiplier x $idx = $product");
   }
 }

@@ -1,8 +1,8 @@
 void main() {
-  for (int i = 1; i <= 100; i++) {
-    if (i == 41) {
+  for (int idx = 1; idx <= 100; idx++) {
+    if (idx == 41) {
       continue;
     }
-    print(i);
+    print(idx);
   }
 }

@@ -1,12 +1,12 @@
 import 'dart:io';
 
 void main() {
-  print("Enter a number : ");
-  int number = int.parse(stdin.readLineSync()!);
-  if (number > 0) {
-    print("$number is positive");
-  } else if (number < 0) {
-    print("$number is negative");
+  stdout.write("Enter a number : ");
+  final int value = int.parse(stdin.readLineSync()!);
+  if (value > 0) {
+    print("$value is positive");
+  } else if (value < 0) {
+    print("$value is negative");
   } else {
     print("The number is zero");
   }

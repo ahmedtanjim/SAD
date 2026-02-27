@@ -1,5 +1,5 @@
 void main() {
-  for (int i = 0; i < 100; i++) {
+  for (int idx = 0; idx < 100; idx++) {
     print("Tanjim Ahmed");
   }
 }

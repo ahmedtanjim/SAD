@@ -1,12 +1,10 @@
 import 'dart:io';
 
 void main() {
-  double totalBill;
-  print("Enter the total Amount : ");
-  totalBill = double.parse(stdin.readLineSync()!);
-  int numOfPeople;
-  print("Enter the number of People : ");
-  numOfPeople = int.parse(stdin.readLineSync()!);
-  double splitAmount = totalBill / numOfPeople;
-  print("The split amount is: $splitAmount");
+  stdout.write("Enter the total Amount : ");
+  final double billTotal = double.parse(stdin.readLineSync()!);
+  stdout.write("Enter the number of People : ");
+  final int headCount = int.parse(stdin.readLineSync()!);
+  final double perPerson = billTotal / headCount;
+  print("The split amount is: $perPerson");
 }

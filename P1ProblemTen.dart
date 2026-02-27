@@ -1,8 +1,8 @@
 void main() {
-  String n = "100";
-  int result = int.parse(n);
-  print("Type of the n ${n.runtimeType}");
-  print("The n : $n");
-  print("Type of the result ${result.runtimeType}");
-  print("The result : $result");
+  const String strValue = "100";
+  final int parsedValue = int.parse(strValue);
+  print("Type of the n ${strValue.runtimeType}");
+  print("The n : $strValue");
+  print("Type of the result ${parsedValue.runtimeType}");
+  print("The result : $parsedValue");
 }
